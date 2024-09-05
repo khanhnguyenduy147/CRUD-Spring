@@ -10,4 +10,4 @@ import java.util.List;
 public interface CustomerRepository extends JpaRepository<Customer, Long> {
     List<Customer> findByFullNameContainingOrMobileNumberContainingOrIdentifyNumberContaining(String fullName, String mobileNumber, String identifyNumber);
 }
-
+//https://github.com/bezkoder/spring-boot-hibernate-oracle
